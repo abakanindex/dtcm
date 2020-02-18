@@ -13,6 +13,7 @@
     "require-dev": {
         "filp/whoops": "~2.0",
         "fzaninotto/faker": "~1.4",
+        "jeroen-g/laravel-packager": "^2.4",
         "mockery/mockery": "~1.0",
         "phpunit/phpunit": "~6.0",
         "symfony/thanks": "^1.0"
@@ -53,5 +54,11 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
+    },
+    "repositories": {
+        "index/dtcm": {
+            "type": "path",
+            "url": "/var/www/projects/laravel55/packages/Index/Dtcm"
+        }
     }
 }
